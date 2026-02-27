@@ -1,0 +1,44 @@
+ :root {
+      --fb-blue: #1877f2;
+      --dark-bg: #121212;
+    }
+
+    body {
+      margin: 0;
+      background: var(--dark-bg);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+    }
+
+    .app-header {
+      position: sticky;
+      top: 0;
+      background: rgba(18, 18, 18, 0.95);
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+      z-index: 100;
+    }
+
+    .feed-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px;
+    }
+
+    .reel-card {
+      width: 100%;
+      max-width: 450px;
+      background: #000;
+      border-radius: 12px;
+      margin-bottom: 40px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .reel-card iframe {
+      border: none;
+      width: 100%;
+      height: 400px;
+    }
