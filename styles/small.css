@@ -87,6 +87,13 @@ iframe {
   height: 400px;
   border-radius: 10px;
 }
+.icon-img-footer{
+  width: 30px;
+  margin: 8px;
+}
+.footer-project a{
+  color: white;
+}
 footer{
   background-color: #550a0a;
   color: white;
