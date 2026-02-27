@@ -10,7 +10,9 @@ const myReelCollections = [
   ["https://web.facebook.com/reel/904746362290279"],
   ["https://web.facebook.com/reel/2826712717681291"],
   ["https://web.facebook.com/reel/25470773862618570"],
-  ["https://fb.watch/FxixWBBoA8/"]
+  ["https://fb.watch/FxixWBBoA8/"],
+  ["https://web.facebook.com/reel/1451695309787913"],
+  ["https://web.facebook.com/reel/1375951832960272"]
 ];
 
 const feed = document.getElementById('mainFeed');
