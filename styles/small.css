@@ -1,0 +1,75 @@
+:root {
+  --primary: #2C3E50;
+  --accent: #E67E22;
+  --white: #ffffff;
+  --font-heading: 'Georgia', serif;
+  --font-body: 'Segoe UI', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--white);
+  color: #333;
+  line-height: 1.6;
+}
+header{
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#menu-button{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+nav{
+  display: none;
+  width: 100%;
+}
+nav ul{
+  list-style: none;
+}
+nav a{
+  display: block;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+}
+.open{
+  display: block;
+}
+.open li:hover{
+  background-color: rgb(255, 255, 255, 0.1);
+  font-weight: 700;
+}
+.search-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-icon{
+  width: 30px;
+  background-color: var(--white);
+ 
+  border-left: none;
+  border-radius: 5px;
+  margin-left:-35px;
+}
+.search-input{
+  padding: 10px 1px;
+  border: 2px solid #E67E22;
+  border-radius: 5px;
+}
