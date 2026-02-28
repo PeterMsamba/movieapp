@@ -3,8 +3,6 @@
 const myReelCollections = [
   ["https://web.facebook.com/reel/697360596101927"],
   ["https://web.facebook.com/reel/891762759890788"],
-  ["https://youtu.be/8kpnSb4yGR0?si=sMEjGP3Bv0JoWSPn"],
-  ["https://youtu.be/KhHtqz_NQA0?si=28oJOBNqeiKQ54LC"],
   ["https://web.facebook.com/reel/2146730562760051"],
   ["https://web.facebook.com/reel/4199522350335393"],
   ["https://web.facebook.com/reel/904746362290279"],
@@ -12,7 +10,16 @@ const myReelCollections = [
   ["https://web.facebook.com/reel/25470773862618570"],
   ["https://fb.watch/FxixWBBoA8/"],
   ["https://web.facebook.com/reel/1451695309787913"],
-  ["https://web.facebook.com/reel/1375951832960272"]
+  ["https://web.facebook.com/reel/1375951832960272"],
+  ["https://web.facebook.com/reel/1421760226079774"],
+  ["https://web.facebook.com/reel/1324294569459636"],
+  ["https://web.facebook.com/reel/1259551352761574"],
+  ["https://web.facebook.com/reel/1842908593060065"],
+  ["https://web.facebook.com/reel/899472273062358"],
+  ["https://web.facebook.com/reel/1429914701830374"],
+  ["https://web.facebook.com/reel/1592456242202122"],
+  ["https://web.facebook.com/reel/1531462351410380"],
+  ["https://web.facebook.com/reel/901573969036304"]
 ];
 
 const feed = document.getElementById('mainFeed');
